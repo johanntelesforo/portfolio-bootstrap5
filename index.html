@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Personal Portfolio using Bootstrap 5</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body class = "bg-light">
+ 
+ <!-- Navbar start --> 
+ <nav class="navbar navbar-light fixed-top bg-dark shadow-sm">
+  <div class="container-lg">
+    <a class="navbar-brand text-danger fw-bold fs-24" href="#"> 요한/ヨハン/Johann </a>
+    <div class="dropdown">
+      <button class="btn btn-secondary btn-danger px-3" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        <i class = "fas fa-bars"></i>
+      </button>
+      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item" href="#home">Home</a></li>
+        <li><a class="dropdown-item" href="#about">About</a></li>
+        <li><a class="dropdown-item" href="#services">Services</a></li>
+        <li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
+        <li><a class="dropdown-item" href="#testimonials">Testimonials</a></li>
+        <li><a class="dropdown-item" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+ <!-- Navbar end -->
+
+ <!-- Home -->
+ <section class="home py-5 bg-white shadow-sm" id = "home">
+   <div class="container-lg">
+    <div class="row min-vh-100 align-items-center align-content-center">
+      <div class="col-md-6 mt-5 mt-md-0">
+        <div class="home-img text-center">
+          <img src = "img/Untitled-1.jpg" class = "rounded-circle mw-150" alt = "profile-img">
+        </div>
+      </div>
+      <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+        <div class="home-text">
+          <p class = "text-muted mb-1"> Hello, I am a </p> 
+          <h1 class = "text-danger text-uppercase fs-1 fw-bold"> VIDEO EDITOR </h1>
+          <h2 class = "fs-14"> Johann Telesforo </h2>
+          <p class = "mt-4 text-muted"> I am a BSCS Student of the University of the Immaculate Conception.
+            An anime enthusiast; I particularly enjoy the refreshing genres of romantic comedy and slice of life. 
+            I take a liking into video editing, as well </p>
+          <a href = "#portfolio" class = "btn btn-danger px-4 mt-4"> My Works </a>
+        </div>
+      </div>
+    </div>
+   </div>
+ </section>
+ <!-- Home end-->
+
+ <!-- About section start-->
+ <section class="about py-5 mt-5 mt-md-0" id = "about">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title text-center">
+            <h2 class = "fw-bold mb-5" > About Me </h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="about-text">
+            <h3 class = "fs-4 fw-bold mb-3"> A person who enjoys editing anime and kpop </h3>
+            <p class = "text-muted"> I have been editing anime and kpop for almost about 2 or 3 years now and I don't regret a single minute out of it.
+              As of this time, I am exploring the world of creating and making websites. </p>
+          </div>
+          <div class="row text-center text-uppercase my-3">
+            <div class="col-sm-4">
+              <div class="fact-item">
+                <h4 class = "fs-1 fw-bold">1</h4>
+                <p class = "text-muted">Projects Completed so far</p>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="fact-item">
+                <h4 class = "fs-1 fw-bold">12</h4>
+                <p class = "text-muted">LOONA Members</p>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="fact-item">
+                <h4 class = "fs-1 fw-bold">85</h4>
+               <a href = "https://youtu.be/_EEo-iE5u_A"> <p>LOONA Songs</p> </a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 d-flex align-items-center">
+              <a href = "#" class = "btn px-4 btn-danger me-5"> Download Resume </a>
+              <div class="social-links ">
+                <a href = "#" class = "text-dark me-2"><i class = "fab fa-facebook"></i></a>
+                <a href = "#" class = "text-dark me-2"><i class = "fab fa-youtube"></i></a>
+                <a href = "#" class = "text-dark me-2"><i class = "fab fa-github"></i></a>
+                <a href = "#" class = "text-dark me-2"><i class = "fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="skill-item mb-4">
+            <h3 class = "fs-6"> Editing </h3>
+            <div class="progress" style="height: 5px;">
+              <div class="progress-bar bg-danger" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill-item mb-4">
+            <h3 class = "fs-6"> LOONAVERSE Knowledge </h3>
+            <div class="progress" style="height: 5px;">
+              <div class="progress-bar bg-primary" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill-item mb-4">
+            <h3 class = "fs-6"> Tokyo Revengers anime </h3>
+            <div class="progress" style="height: 5px;">
+              <div class="progress-bar bg-info" role="progressbar" style="width: 45%;" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill-item mb-4">
+            <h3 class = "fs-6"> Html </h3>
+            <div class="progress" style="height: 5px;">
+              <div class="progress-bar bg-success" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill-item mb-4">
+            <h3 class = "fs-6"> CSS </h3>
+            <div class="progress" style="height: 5px;">
+              <div class="progress-bar bg-warning" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ </section>
+ <!-- About section end-->
+
+ <!-- Services Section Start -->
+ <section class="services bg-white shadow-sm" id = "services">
+  <div class="container-lg py-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="section-title text-center">
+          <h2 class = "fw-bold mb-5" > What I Do </h2>
+        </div>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-md-6 col-lg-4 mb-4">
+          <div class="service-item shadow-sm p-4 rounded bg-white">
+            <div class="icon my-3 text-danger fs-2">
+              <i class = "fas fa-code"></i>
+            </div>
+            <h3 class = "fs-5 py-2"> Web Development </h3>
+            <p class = "text-muted"> Creating Static web pages with CSS and HTML and a little bit of JavaScript </p>
+          </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-item shadow-sm p-4 rounded bg-white">
+          <div class="icon my-3 text-danger fs-2">
+            <i class = "fas fa-video"></i>
+          </div>
+          <h3 class = "fs-5 py-2"> Video Editing </h3>
+          <p class = "text-muted"> Using mainly Adobe After Effects when editing videos </p>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-4 mb-4">
+      <div class="service-item shadow-sm p-4 rounded bg-white">
+        <div class="icon my-3 text-danger fs-2">
+          <i class = "fas fa-gamepad"></i>
+        </div>
+        <h3 class = "fs-5 py-2"> Gaming </h3>
+        <p class = "text-muted"> Playing Valorant and Genshin Impact to learn how the game industry works </p>
+      </div>
+  </div>
+    </div>
+  </div>
+ </section>
+ <!-- Services Section End -->
+
+ <!-- Portfolio Section Start -->
+ <section class="portfolio py-5" id = "portfolio">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title text-center">
+            <h2 class = "fw-bold mb-5" > Recent Works </h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item">
+            <img src = "img/portfolio/1.jpg" class = "w-100 img-thumbnail" alt = "portfolio-item">
+            <h3 class = "text-capitalize fs-5 my-2"> Team Section </h3>
+            <p class = "mb-4"><a class = "text-danger text-decoration-none" href = "#"> Live Demo </a></p> 
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item">
+            <img src = "img/portfolio/2.jpg" class = "w-100 img-thumbnail" alt = "portfolio-item">
+            <h3 class = "text-capitalize fs-5 my-2"> App Landing Page </h3>
+            <p class = "mb-4"><a class = "text-danger text-decoration-none" href = "#"> Live Demo </a></p> 
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item">
+            <img src = "img/portfolio/3.jpg" class = "w-100 img-thumbnail" alt = "portfolio-item">
+            <h3 class = "text-capitalize fs-5 my-2"> Creative Team Section </h3>
+            <p class = "mb-4"><a class = "text-danger text-decoration-none" href = "#"> Live Demo </a></p> 
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item">
+            <img src = "img/portfolio/4.jpg" class = "w-100 img-thumbnail" alt = "portfolio-item">
+            <h3 class = "text-capitalize fs-5 my-2"> Toggle Pricing Table </h3>
+            <p class = "mb-4"><a class = "text-danger text-decoration-none" href = "#"> Live Demo </a></p> 
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item">
+            <img src = "img/portfolio/5.jpg" class = "w-100 img-thumbnail" alt = "portfolio-item">
+            <h3 class = "text-capitalize fs-5 my-2"> Bootstrap 5 Image Gallery </h3>
+            <p class = "mb-4"><a class = "text-danger text-decoration-none" href = "#"> Live Demo </a></p> 
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item">
+            <img src = "img/portfolio/6.jpg" class = "w-100 img-thumbnail" alt = "portfolio-item">
+            <h3 class = "text-capitalize fs-5 my-2"> Filterable Image Gallery </h3>
+            <p class = "mb-4"><a class = "text-danger text-decoration-none" href = "#"> Live Demo </a></p> 
+          </div>
+        </div>
+      </div>
+    </div>
+ </section>
+ <!-- Portfolio Section End -->
+
+ <!-- Freelancer Section Start -->
+ <section class="freelancer-available py-5 bg-dark">
+   <div class="container-lg">
+     <div class="row justify-content-center">
+       <div class="col-lg-8 text-center">
+          <p class = "text-light fs-5"> Do you want to work with me?? </p>
+          <h2 class = "fs-1 text-white mb-4"> I'm Available For Freelance Video Editing Projects </h2>
+          <a href = "#contact" id = "contact" class = "btn btn-outline-light"> Hire Me </a>
+       </div>
+     </div>
+   </div>
+ </section>
+ <!-- Freelancer Section End -->
+
+
+ <!--Testimonial Section Start-->
+<section class="testimonials py-5 bg-white shadow-sm" id = "testimonials">
+  <div class="container-lg py-4">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="section-title text-center">
+          <h2 class = "fw-bold mb-5" > Testimonials </h2>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-8 col-xl-7">
+        <div id="carouselExample1" class="carousel slide" data-bs-ride="carousel">
+          <ol class="carousel-indicators">
+            <li class = "bg-danger" data-bs-target="#carouselExample1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <li class = "bg-danger" data-bs-target="#carouselExample1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <li class = "bg-danger" data-bs-target="#carouselExample1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </ol>
+        <div class="carousel-inner">
+        <!-- Testi Start -->
+        <div class="testim-item carousel-item active bg-white shadow-sm rounded p-4 mb-5">
+          <div class="testim-author-info d-flex align-items-center">
+            <img src = "img/testimonial/1.jpg" class = "img-thumbnail rounded-circle" alt = "author img">
+            <div class="author ms-3">
+              <h3 class = "fs-6 mb-1"> Jo Haseul </h3>
+              <p class = "text-muted m-0"> The Love of my Life </p>
+            </div>
+          </div>
+          <P class = "text muted mt-3"> 너무 너무 사랑해 </P>
+          <div class="rating text-warning">
+            <i class = "fas fa-star"></i>
+            <i class = "fas fa-star"></i>
+            <i class = "fas fa-star"></i>
+            <i class = "fas fa-star"></i>
+            <i class = "fas fa-star"></i>
+          </div>
+        </div>
+        <!-- Testi End-->
+         <!-- Testi Start -->
+         <div class="testim-item carousel-item bg-white shadow-sm rounded p-4 mb-5">
+          <div class="testim-author-info d-flex align-items-center">
+            <img src = "img/testimonial/2.jpg" class = "img-thumbnail rounded-circle" alt = "author img">
+            <div class="author ms-3">
+              <h3 class = "fs-6 mb-1"> Park GoWon </h3>
+              <p class = "text-muted m-0"> Cutie Bias Wrecker </p>
+            </div>
+          </div>
+          <P class = "text muted mt-3"> 요한 대박!!!! </P>
+          <div class="rating text-warning">
+            <i class = "fas fa-star"></i>
+            <i class = "fas fa-star"></i>
+            <i class = "fas fa-star"></i>
+            <i class = "fas fa-star"></i>
+            <i class = "fas fa-star"></i>
+          </div>
+        </div>
+        <!-- Testi End-->
+         <!-- Testi Start -->
+         <div class="testim-item carousel-item bg-white shadow-sm rounded p-4 mb-5">
+          <div class="testim-author-info d-flex align-items-center">
+            <img src = "img/testimonial/3.jpg" class = "img-thumbnail rounded-circle" alt = "author img">
+            <div class="author ms-3">
+              <h3 class = "fs-6 mb-1"> Olivia Hye </h3>
+              <p class = "text-muted m-0"> Strong Maknae </p>
+            </div>
+          </div>
+          <P class = "text muted mt-3"> 사랑해 ㅋㅋㅋㅋㅋㅋㅋㅋ </P>
+          <div class="rating text-warning">
+            <i class = "fas fa-star"></i>
+            <i class = "fas fa-star"></i>
+            <i class = "fas fa-star"></i>
+            <i class = "fas fa-star"></i>
+          </div>
+          </div>
+        <!-- Testi End-->
+       </div>  
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+ <!--Testimonial Section End-->
+
+ <!-- Contact Section Start -->
+ <section class="contact py-5 bg-white shadow-sm" id = "contact">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title text-center">
+            <h2 class = "fw-bold mb-5" > Contact Me </h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-5">
+          <div class="contact-item d-flex mb-3">
+            <div class="icon fs-4 text-danger"><i class = "fas fa-envelope"></i></div>
+            <div class="text ms-3">
+              <h3 class = "fs-5"> Email </h3>
+              <P class = "text-muted"> email@gmail.com </P>
+            </div>
+          </div>
+          <div class="contact-item d-flex mb-3">
+            <div class="icon fs-4 text-danger"><i class = "fas fa-phone"></i></div>
+            <div class="text ms-3">
+              <h3 class = "fs-5"> Phone </h3>
+              <P class = "text-muted"> 098764545212 </P>
+            </div>
+          </div>
+          <div class="contact-item d-flex mb-3">
+            <div class="icon fs-4 text-danger"><i class = "fas fa-map-marker-alt"></i></div>
+            <div class="text ms-3">
+              <h3 class = "fs-5"> Workplace </h3>
+              <P class = "text-muted"> Sŏul-t'ŭkpyŏlsi (“Special City of Seoul”) </P>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="contact-form">
+            <form>
+              <div class="row">
+                <div class="col-lg-6 mb-4">
+                  <input type="text" placeholder="Full Name" class = "form-control form-control-lg fs-6 border-0 shadow-sm">
+                </div>
+                <div class="col-lg-6 mb-4">
+                  <input type="text" placeholder="Your Email" class = "form-control form-control-lg fs-6 border-0 shadow-sm">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 mb-4">
+                  <input type="text" placeholder="Subject" class = "form-control form-control-lg fs-6 border-0 shadow-sm">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 mb-4">
+                  <textarea rows = 5 placeholder="Message" class = "form-control form-control-lg fs-6 border-0 shadow-sm"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <button type="submit" class = "btn btn-danger px-3"> Submit to Johann </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+ </section>
+ <!-- Contact Section END -->
+ 
+ <!-- Footer Start -->
+ <footer class="footer border-top py-4 bg-dark">
+   <div class="container-lg">
+     <div class="row">
+       <div class="col-lg-12">
+         <p class = "m-0 text-center text-light text-muted"> &copy; 2021 Johann Gabriel Sebastian B. Telesforo </p>
+       </div>
+     </div>
+   </div>
+ </footer>
+ <!-- Footer End -->
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
